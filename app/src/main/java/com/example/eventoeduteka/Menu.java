@@ -17,6 +17,8 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.eventoeduteka.dia1.dia1;
+
 public class Menu extends AppCompatActivity {
 
     private TextView txtNombre;
