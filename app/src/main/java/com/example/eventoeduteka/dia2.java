@@ -27,5 +27,15 @@ public class dia2 extends AppCompatActivity {
             }
         } );
 
+        btnPlenaria.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent( dia2.this, dia2Plenaria.class );
+                startActivity( intent );
+            }
+        } );
+
+
+
     }
 }

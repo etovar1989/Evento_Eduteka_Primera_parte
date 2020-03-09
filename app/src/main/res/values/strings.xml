@@ -11,4 +11,5 @@
     <string name="bloque">Seleccione el bloque de comferencias</string>
     <string name="continuar">Continuar</string>
     <string name="dia2S">Día 2 - Simultanea</string>
+    <string name="dia2P">Día 2 - Plenaria</string>
 </resources>

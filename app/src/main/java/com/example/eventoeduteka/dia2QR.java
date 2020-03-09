@@ -40,6 +40,7 @@ public class dia2QR extends AppCompatActivity implements ZXingScannerView.Result
     public void handleResult(Result result) {
         documento = result.getText();
         tipo = getIntent().getStringExtra( "tipo" );
+        id = getIntent().getStringExtra( "id" );
 
         Toast.makeText( this,"Consulta "+documento, Toast.LENGTH_SHORT).show();
 
