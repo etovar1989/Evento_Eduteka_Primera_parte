@@ -32,12 +32,12 @@ public class dia2SubMenu extends AppCompatActivity {
         btnQR = findViewById( R.id.btnQR );
 
         if(tipo.equals( "P" )){
-            dato.setText( "Plenaria - " );
+            dato.setText( "Plenaria \n"+nombre );
         }if(tipo.equals( "S" )){
             dato.setText( "Simultanea \n"+nombre );
         }
 
-
+        Toast.makeText(dia2SubMenu.this, "Tienes que llenar el campo documento", Toast.LENGTH_SHORT ).show();
 
 
         btnCC.setOnClickListener( new View.OnClickListener() {
