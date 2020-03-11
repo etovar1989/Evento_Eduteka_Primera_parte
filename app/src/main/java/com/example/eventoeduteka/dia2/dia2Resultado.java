@@ -101,6 +101,7 @@ public class dia2Resultado extends AppCompatActivity implements Response.ErrorLi
             if(dato1 == 1){
                 //Toast.makeText( this,"Se ha realizado el primer registro con exito", Toast.LENGTH_SHORT).show();
                 txtResultado.setText( "Registro exitoso, puede ingresar a la conferencia." );
+                txtResultado.setTextColor( Color.rgb( 22,185,39 ));
             }if(dato1 == 20){
                 txtResultado.setText( "Oops!! El asistente con cc "+documento+" fue registrado anteriormente -_-." + dato1);
                 txtResultado.setTextColor( Color.rgb( 176,133,8 ));

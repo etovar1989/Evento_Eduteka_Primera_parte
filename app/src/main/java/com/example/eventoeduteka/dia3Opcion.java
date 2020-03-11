@@ -55,7 +55,7 @@ public class dia3Opcion extends AppCompatActivity implements AdapterView.OnItemS
         btnContinuar.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText( dia3Opcion.this,"Conferencia: "+nombre+"Posicion: "+pocision,Toast.LENGTH_LONG ).show();
+                //Toast.makeText( dia3Opcion.this,"Conferencia: "+nombre+"Posicion: "+pocision,Toast.LENGTH_LONG ).show();
                 Intent intent = new Intent( dia3Opcion.this,dia3SubMenu.class );
                 intent.putExtra( "nombre",nombre );
                 intent.putExtra( "id",pocision );

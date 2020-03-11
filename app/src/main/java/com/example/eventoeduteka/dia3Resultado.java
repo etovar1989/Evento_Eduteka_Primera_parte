@@ -97,7 +97,8 @@ public class dia3Resultado extends AppCompatActivity implements Response.ErrorLi
             txtResultado.setVisibility( View.VISIBLE );
             if(dato1 == 1){
                 //Toast.makeText( this,"Se ha realizado el primer registro con exito", Toast.LENGTH_SHORT).show();
-                txtResultado.setText( "Registro exitoso, puede ingresar a la conferencia." );
+                txtResultado.setText( "Registro exitoso, puede ingresar al taller." );
+                txtResultado.setTextColor( Color.rgb( 22,185,39 ));
             }if(dato1 == 19){
                 txtResultado.setText( "Oops!! El asistente con cc "+documento+" No esta registrado en este taller");
                 txtResultado.setTextColor( Color.rgb( 176,133,8 ));
@@ -108,7 +109,7 @@ public class dia3Resultado extends AppCompatActivity implements Response.ErrorLi
                 txtResultado.setText( "Upps!! El asistente no realizó el registro general, por favor dirígelo a registro general -_-." );
                 txtResultado.setTextColor( Color.RED);
             }if(dato1 == 22){
-                txtResultado.setText( "Upps!! No re enviaron datos, comunicate con el administrador -_-." );
+                txtResultado.setText( "Upps!! No se enviaron datos, comunicate con el administrador -_-." );
                 txtResultado.setTextColor( Color.RED);
             }
 
