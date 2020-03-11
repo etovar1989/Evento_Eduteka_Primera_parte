@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".dia2.dia2SubMenu"
+    tools:context=".dia3SubMenu"
     android:background="@drawable/fondo">
 
     <TextView
@@ -52,7 +52,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:fontFamily="@font/quicksand_medium"
-        android:text="@string/dia2"
+        android:text="@string/dia3"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

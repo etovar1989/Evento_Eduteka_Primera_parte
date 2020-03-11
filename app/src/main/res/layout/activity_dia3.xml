@@ -4,30 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".dia2.dia2"
+    tools:context=".dia3"
     android:background="@drawable/fondo">
 
     <TextView
         android:id="@+id/textView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:fontFamily="@font/quicksand_medium"
-        android:text="Simultanea"
+        android:text="Taller B2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintHorizontal_bias="0.73"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnSimultanea"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/btnTallerB2"
+        app:layout_constraintVertical_bias="0.026" />
 
     <Button
-        android:id="@+id/btnSimultanea"
+        android:id="@+id/btnTallerB2"
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:background="@drawable/animacion_simultanea"
+        android:background="@drawable/animacion_taller_b2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.765"
@@ -41,21 +40,21 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/quicksand_medium"
-        android:text="Plenaria"
+        android:text="Taller B1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.27"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnPlenaria"
+        app:layout_constraintTop_toBottomOf="@+id/btnTallerB1"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/btnPlenaria"
+        android:id="@+id/btnTallerB1"
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:background="@drawable/animacion_plenaria"
+        android:background="@drawable/animacion_taller_b1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.239"
@@ -72,7 +71,7 @@
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="148dp"
         android:fontFamily="@font/quicksand_medium"
-        android:text="@string/dia2"
+        android:text="@string/dia3"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -122,6 +121,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:layout_constraintVertical_bias="1.0" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

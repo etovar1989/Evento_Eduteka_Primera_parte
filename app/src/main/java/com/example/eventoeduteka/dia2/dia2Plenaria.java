@@ -1,4 +1,4 @@
-package com.example.eventoeduteka;
+package com.example.eventoeduteka.dia2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,6 +11,9 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.eventoeduteka.Conferencias;
+import com.example.eventoeduteka.R;
 
 import java.util.ArrayList;
 
@@ -39,7 +42,6 @@ public class dia2Plenaria extends AppCompatActivity implements AdapterView.OnIte
         Conferencias u = new Conferencias();
         Conferencias o = new Conferencias();
         Conferencias e = new Conferencias();
-        Conferencias i = new Conferencias();
 
         u.setNombre(1+" - "+ "Evaluar para enseñar a aprender: enfoque neuropedagógico de la evaluación para los aprendizajes desde las fases y funciones del pensamiento.\nPanelista: Ihosvany Seguí");
         lista.add( u );

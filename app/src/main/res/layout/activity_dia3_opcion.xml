@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".dia2.dia2Plenaria"
-    android:background="@drawable/fondo">
+    android:background="@drawable/fondo"
+    tools:context=".dia3Opcion">
 
     <TextView
         android:id="@+id/textView22"
@@ -51,7 +51,7 @@
 
 
     <Spinner
-        android:id="@+id/spPlenarias"
+        android:id="@+id/spTalleres"
         android:layout_width="341dp"
         android:layout_height="37dp"
         android:layout_marginStart="8dp"
@@ -71,7 +71,7 @@
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="148dp"
         android:fontFamily="@font/quicksand_medium"
-        android:text="@string/dia2P"
+        android:text="Taller"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -94,6 +94,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spConferencias"
         app:layout_constraintVertical_bias="0.369" />
+
+    <TextView
+        android:id="@+id/txtBloque"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="Bloque"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24"
+        app:layout_constraintVertical_bias="0.051" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

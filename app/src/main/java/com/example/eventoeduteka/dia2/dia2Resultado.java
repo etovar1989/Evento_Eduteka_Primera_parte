@@ -1,4 +1,4 @@
-package com.example.eventoeduteka;
+package com.example.eventoeduteka.dia2;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,6 +18,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.JsonRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.eventoeduteka.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;

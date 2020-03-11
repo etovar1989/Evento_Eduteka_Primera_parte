@@ -1,4 +1,4 @@
-package com.example.eventoeduteka;
+package com.example.eventoeduteka.dia2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,6 +10,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.eventoeduteka.R;
 
 public class dia2SubMenu extends AppCompatActivity {
 
@@ -36,8 +38,6 @@ public class dia2SubMenu extends AppCompatActivity {
         }if(tipo.equals( "S" )){
             dato.setText( "Simultanea \n"+nombre );
         }
-
-        Toast.makeText(dia2SubMenu.this, "Tienes que llenar el campo documento", Toast.LENGTH_SHORT ).show();
 
 
         btnCC.setOnClickListener( new View.OnClickListener() {

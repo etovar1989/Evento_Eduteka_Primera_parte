@@ -18,6 +18,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.eventoeduteka.dia1.dia1;
+import com.example.eventoeduteka.dia2.dia2;
 
 public class Menu extends AppCompatActivity {
 
@@ -42,6 +43,7 @@ public class Menu extends AppCompatActivity {
 
         btnD1 = findViewById( R.id.btnD1 );
         btnD2 = findViewById( R.id.btnD2 );
+        btnD3 = findViewById( R.id.btnD3 );
 
         btnD1.setOnClickListener( new View.OnClickListener() {
             @Override
@@ -55,6 +57,14 @@ public class Menu extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent( Menu.this, dia2.class );
+                startActivity( intent );
+            }
+        } );
+
+        btnD3.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent( Menu.this, dia3.class );
                 startActivity( intent );
             }
         } );
