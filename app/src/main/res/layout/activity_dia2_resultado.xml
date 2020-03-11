@@ -103,7 +103,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:fontFamily="@font/quicksand_medium"
-        android:text="Día 1"
+        android:text="@string/dia2"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -28,7 +28,7 @@ public class dia3Resultado extends AppCompatActivity implements Response.ErrorLi
 
     TextView txtResultado;
     TextView dato;
-    String documento, id, tipo,bloque,nombre;
+    String documento,id,tipo,bloque,nombre;
 
     int dato1=0;
 
